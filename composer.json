@@ -1,0 +1,16 @@
+{
+    "name": "mrdigital/smstutorial",
+    "authors": [
+        {
+            "name": "mrdigitalau",
+            "email": "sean@mrdigital.com.au"
+        }
+    ],
+    "autoload" : {
+
+        "psr-4" : {"Classes\\" : "./classes"}
+    },
+    "require": {
+        "twilio/sdk": "^6.0"
+    }
+}
